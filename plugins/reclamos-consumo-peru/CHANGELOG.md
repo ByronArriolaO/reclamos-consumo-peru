@@ -3,6 +3,7 @@
 ## 0.6.1 — 26/09/2026
 - `estado.py` ya no lanza un proceso hijo con una copia de las variables de entorno para validar los requerimientos: importa `validar_requerimientos.py` y lo ejecuta en el mismo proceso. Ningún script lee variables de entorno ni credenciales.
 - Icono del plugin (`.claude-plugin/icon.svg`).
+- `privacyPolicyUrl` en `plugin.json` y enlace "Privacy" en el README.
 
 ## 0.6.0 — 25/09/2026 (primera versión pública)
 

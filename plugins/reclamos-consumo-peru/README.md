@@ -55,7 +55,7 @@ Subagentes: `investigador-evidencias`, `reconstructor-hechos`, `correlacionador-
 
 **Nunca:** envía reclamos ni correos por su cuenta, ingresa contraseñas, resuelve captchas, descarga archivos sin tu permiso ni guarda en memoria tu DNI o tus números de cuenta o tarjeta.
 
-Detalles en [PRIVACY.md](PRIVACY.md).
+Detalles en la [política de privacidad (Privacy)](https://github.com/ByronArriolaO/reclamos-consumo-peru/blob/main/plugins/reclamos-consumo-peru/PRIVACY.md).
 
 ## Requisitos
 
@@ -98,6 +98,6 @@ skills/
 agents/                     8 subagentes
 ```
 
-## Licencia y contacto
+## Licencia, privacidad y contacto
 
-Licencia [MIT](LICENSE). Reporta problemas o sugerencias en GitHub Issues: https://github.com/ByronArriolaO/reclamos-consumo-peru/issues
+Licencia [MIT](LICENSE). [Privacy](https://github.com/ByronArriolaO/reclamos-consumo-peru/blob/main/plugins/reclamos-consumo-peru/PRIVACY.md): política de privacidad. Reporta problemas o sugerencias en GitHub Issues: https://github.com/ByronArriolaO/reclamos-consumo-peru/issues
