@@ -30,7 +30,6 @@ import glob
 import json
 import os
 import re
-import subprocess
 import sys
 import unicodedata
 from datetime import datetime
@@ -332,15 +331,15 @@ def compuerta(d, g):
             falta.append('Pretensión P## en 07.')
         p07 = archivo(d, '07 ')
         if p07 and os.path.exists(VALIDADOR):
-            env = dict(os.environ, PYTHONIOENCODING='utf-8')
-            r = subprocess.run([sys.executable, VALIDADOR, p07, '--json'], capture_output=True,
-                               text=True, encoding='utf-8', errors='replace', env=env)
             try:
-                res = json.loads(r.stdout)
-                for e in res['errores']:
+                import importlib.util
+                spec = importlib.util.spec_from_file_location('validar_requerimientos', VALIDADOR)
+                mod = importlib.util.module_from_spec(spec)
+                spec.loader.exec_module(mod)
+                for e in mod.validar(p07)['errores']:
                     falta.append('validar_requerimientos: ' + e)
-            except Exception:
-                falta.append('No se pudo ejecutar validar_requerimientos.py sobre 07: ' + (r.stderr.strip().splitlines() or ['sin detalle'])[-1])
+            except Exception as ex:
+                falta.append('No se pudo ejecutar validar_requerimientos.py sobre 07: ' + (str(ex).strip() or type(ex).__name__))
     elif g == '1-2':
         exc = c.get('excepcion')
         rc = c.get('reclamo') or {}
