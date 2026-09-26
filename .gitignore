@@ -1,0 +1,21 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
+
+# Python
+__pycache__/
+*.pyc
+
+# Casos y datos personales: nunca subir expedientes reales
+/expedientes/
+/casos/
+/r[0-9]*_*/
+_conocimiento-propio/
+*.pdf
+*.plugin
+
+# Editores
+.vscode/
+.idea/

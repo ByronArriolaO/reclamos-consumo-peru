@@ -1,0 +1,232 @@
+{
+ "_fuente": "Relevado del comportamiento observable de Reclama Virtual (INDECOPI) el 23/09/2026: valores de las listas desplegables del portal. Puede cambiar: verificar en pantalla.",
+ "categorias": {
+  "bancario": {
+   "id": 1,
+   "texto": "Servicios Bancarios y Financieros",
+   "indice_boton": 0
+  },
+  "transporte": {
+   "id": 2,
+   "texto": "Transporte",
+   "indice_boton": 1
+  },
+  "colegios": {
+   "id": 3,
+   "texto": "Colegios",
+   "indice_boton": 2
+  },
+  "otros": {
+   "id": 4,
+   "texto": "Otros",
+   "indice_boton": 3
+  },
+  "llamadas": {
+   "id": 5,
+   "texto": "Llamadas de publicidad no autorizadas",
+   "indice_boton": 4
+  }
+ },
+ "oficinas": {
+  "Amazonas": "1",
+  "Ancash - Chimbote": "2",
+  "Ancash - Huaraz": "3",
+  "Apurimac": "4",
+  "Arequipa": "5",
+  "Ayacucho": "7",
+  "Cajamarca": "9",
+  "Cusco": "10",
+  "Huancavelica": "11",
+  "Huánuco": "12",
+  "Ica": "13",
+  "Junín - Huancayo": "14",
+  "Junín - La Merced": "15",
+  "La Libertad": "16",
+  "Lambayeque": "17",
+  "Lima - Congreso de la República del Perú": "22",
+  "Lima - Gamarra": "23",
+  "Lima - Lima Norte": "18",
+  "Lima - Oficina Local del Indecopi AIJCH": "39",
+  "Lima - Sede Central": "19",
+  "Loreto": "28",
+  "Madre de Dios": "29",
+  "Moquegua": "30",
+  "Pasco": "31",
+  "Piura": "32",
+  "Puno": "34",
+  "San Martín": "35",
+  "Tacna": "36",
+  "Tumbes": "37",
+  "Ucayali": "38",
+  "VRAEM": "8"
+ },
+ "productos_financieros": {
+  "Créditos comerciales": "1",
+  "Crédito de consumo": "2",
+  "Cuenta corriente": "3",
+  "Depósito de ahorros": "4",
+  "Depósito CTS": "5",
+  "Arrendamiento financiero": "6",
+  "Depósito a plazo": "7",
+  "Tarjeta de crédito": "8",
+  "Tarjeta de débito": "9",
+  "Crédito hipotecario": "10",
+  "Otros": "11"
+ },
+ "medios_reclamo": {
+  "Personal": "1",
+  "Telefónico": "2",
+  "Virtual": "3",
+  "Libro de reclamaciones": "4",
+  "Otros": "5"
+ },
+ "medios_compra": {
+  "Presencial": "1",
+  "Telefónico": "2",
+  "Virtual": "3",
+  "No compré/ No contraté": "4"
+ },
+ "tipos_documento_adjunto": {
+  "bancario": {
+   "Contrato": "1",
+   "Estado de cuenta": "2",
+   "Factura": "10",
+   "Garantía": "13",
+   "Hoja de reclamación": "11",
+   "Hoja de servicio técnico": "12",
+   "Hoja resumen": "3",
+   "Otros": "14"
+  },
+  "transporte": {
+   "Boleta de venta": "7",
+   "Boleto de viaje": "6",
+   "Factura": "10",
+   "Garantía": "13",
+   "Hoja de reclamación": "11",
+   "Hoja de servicio técnico": "12",
+   "Otros": "14",
+   "Reserva": "8",
+   "Ticket de equipaje": "9"
+  },
+  "colegios": {
+   "Certificado de estudios": "5",
+   "Comprobante de pago": "4",
+   "Factura": "10",
+   "Garantía": "13",
+   "Hoja de reclamación": "11",
+   "Hoja de servicio técnico": "12",
+   "Otros": "14"
+  },
+  "otros": {
+   "Factura": "10",
+   "Garantía": "13",
+   "Hoja de reclamación": "11",
+   "Hoja de servicio técnico": "12",
+   "Otros": "14"
+  },
+  "llamadas": {
+   "Hoja de reclamación": "11",
+   "Hoja de servicio técnico": "12",
+   "Imágenes": "15",
+   "Otros": "14"
+  }
+ },
+ "adjuntos": {
+  "max_archivos": 5,
+  "max_bytes": 5509120,
+  "extensiones": [
+   ".pdf",
+   ".jpg",
+   ".jpeg",
+   ".png",
+   ".doc",
+   ".docx",
+   ".xls",
+   ".xlsx",
+   ".ppt",
+   ".pptx",
+   ".mp3",
+   ".mp4"
+  ]
+ },
+ "limites": {
+  "motivo": 4000,
+  "solicitud": 3000,
+  "otro_medio_reclamo": 150,
+  "fecha_aproximada": 150,
+  "numero_cuenta": 30,
+  "telefono_llamadas": [
+   7,
+   12
+  ],
+  "reclamado_nombre_comercial": 150,
+  "reclamado_direccion": 200,
+  "reclamado_correo": 100,
+  "reclamado_telefono": 15,
+  "reclamante_direccion": 200,
+  "reclamante_correo": 100,
+  "reclamante_telefono": 15,
+  "apellidos_nombres": 50
+ },
+ "documentos_identidad": {
+  "reclamado_natural": [
+   "DNI",
+   "CE",
+   "RUC"
+  ],
+  "reclamado_juridica": [
+   "RUC"
+  ],
+  "reclamante_natural": [
+   "DNI",
+   "CE",
+   "RUC",
+   "Pasaporte"
+  ],
+  "reclamante_juridica": [
+   "RUC"
+  ],
+  "representante": [
+   "DNI",
+   "CE",
+   "RUC",
+   "Pasaporte"
+  ],
+  "longitud": {
+   "DNI": [
+    8,
+    8
+   ],
+   "CE": [
+    8,
+    12
+   ],
+   "RUC": [
+    11,
+    11
+   ],
+   "Pasaporte": [
+    7,
+    12
+   ]
+  },
+  "value_select": {
+   "DNI": "1",
+   "CE": "2",
+   "RUC": "3",
+   "Pasaporte": "4"
+  }
+ },
+ "discapacidad": {
+  "No": "0",
+  "visual": "1",
+  "auditiva": "2",
+  "motora": "3",
+  "cognitiva": "4"
+ },
+ "calendario": {
+  "anio_minimo": 2016,
+  "fecha_maxima": "hoy",
+  "aria_label_dia": "AAAA-Mmm-D con meses en español abreviados (Ene Feb Mar Abr May Jun Jul Ago Sep Oct Nov Dic) y día sin cero a la izquierda. Ej.: 2025-Mar-5"
+ }
+}

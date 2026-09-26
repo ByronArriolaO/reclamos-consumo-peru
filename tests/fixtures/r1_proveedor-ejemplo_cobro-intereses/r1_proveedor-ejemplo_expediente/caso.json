@@ -1,0 +1,11 @@
+{
+ "caso": "r1",
+ "proveedor": "Proveedor Ejemplo S.A.C.",
+ "paso": 1,
+ "situacion": "Esperando respuesta del proveedor",
+ "petitorio_aceptado": true,
+ "excepcion": null,
+ "reclamo": {"canal": "Libro de Reclamaciones virtual", "codigo": "0001", "fecha": "01/07/2026", "vence": "22/07/2026"},
+ "oferta_rechazada": null,
+ "resultado": null
+}

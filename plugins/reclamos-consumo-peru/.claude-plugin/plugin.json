@@ -1,0 +1,23 @@
+{
+  "name": "reclamos-consumo-peru",
+  "displayName": "Reclamos de consumo Perú",
+  "version": "0.6.0",
+  "description": "Prepara, presenta y da seguimiento a reclamos de consumo en el Perú: arma el expediente del caso, redacta el reclamo al proveedor con requerimientos precisos y llena el formulario de Reclama Virtual (INDECOPI) hasta el resumen, para que el usuario lo revise y lo envíe. No afiliado a INDECOPI; no brinda asesoría legal.",
+  "author": {
+    "name": "Byron Arriola",
+    "url": "https://github.com/ByronArriolaO"
+  },
+  "homepage": "https://github.com/ByronArriolaO/reclamos-consumo-peru",
+  "repository": "https://github.com/ByronArriolaO/reclamos-consumo-peru",
+  "license": "MIT",
+  "keywords": [
+    "consumer-protection",
+    "peru",
+    "complaints",
+    "legaltech",
+    "reclamos",
+    "consumidor",
+    "libro-de-reclamaciones",
+    "reclama-virtual"
+  ]
+}

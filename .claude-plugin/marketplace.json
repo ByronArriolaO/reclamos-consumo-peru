@@ -1,0 +1,22 @@
+{
+  "name": "byronarriolao-plugins",
+  "owner": {
+    "name": "Byron Arriola",
+    "url": "https://github.com/ByronArriolaO"
+  },
+  "metadata": {
+    "description": "Plugins de LegalTech para Claude: reclamos de consumo en el Perú."
+  },
+  "plugins": [
+    {
+      "name": "reclamos-consumo-peru",
+      "source": "./plugins/reclamos-consumo-peru",
+      "description": "Prepara, presenta y da seguimiento a reclamos de consumo en el Perú: expediente, reclamo al proveedor con requerimientos precisos y llenado de Reclama Virtual (INDECOPI) hasta el resumen para que el usuario envíe.",
+      "version": "0.6.0",
+      "author": { "name": "Byron Arriola", "url": "https://github.com/ByronArriolaO" },
+      "homepage": "https://github.com/ByronArriolaO/reclamos-consumo-peru",
+      "license": "MIT",
+      "keywords": ["consumer-protection", "peru", "complaints", "legaltech"]
+    }
+  ]
+}
